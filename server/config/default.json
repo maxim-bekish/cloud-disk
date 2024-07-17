@@ -1,5 +1,6 @@
 {
    "serverPort": 5000,
    "dbUrl": "mongodb+srv://maxamax997:e1K7iRgzEpqGTZ8g@cloud.huzwpcc.mongodb.net/?retryWrites=true&w=majority&appName=Cloud",
-   "secretKey":"max-secret-key"
+   "secretKey": "max-secret-key",
+   "filePath": "C:\\Users\\maxam\\Desktop\\cloud-disc\\server\\files"
 }

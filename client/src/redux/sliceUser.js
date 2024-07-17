@@ -11,12 +11,16 @@ const userSlice = createSlice({
    reducers: {
       setUser(state, action) {
          state.user = action.payload;
+         state.isAuth = true;
       },
-      setAuth(state, action) {
-         state.isAuth = action.payload;
+      logOut(state) {
+         localStorage.removeItem('token');
+         state.user = {};
+         state.isAuth = false; 
       },
+      // Вы можете добавить другие редюсеры здесь, если нужно
    },
 });
 
-export const { setUser, setAuth } = userSlice.actions;
+export const { setUser, logOut } = userSlice.actions;
 export default userSlice.reducer;

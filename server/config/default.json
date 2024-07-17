@@ -1,5 +1,5 @@
 {
    "serverPort": 5000,
-   "dbUrl":  "mongodb+srv://maxamax997:e1K7iRgzEpqGTZ8g@cloud.huzwpcc.mongodb.net/?retryWrites=true&w=majority&appName=Cloud"
-
+   "dbUrl": "mongodb+srv://maxamax997:e1K7iRgzEpqGTZ8g@cloud.huzwpcc.mongodb.net/?retryWrites=true&w=majority&appName=Cloud",
+   "secretKey":"max-secret-key"
 }
